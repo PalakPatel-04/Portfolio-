@@ -1,2 +1,2 @@
-LIVE DEMO - palakp.netlify.app
+LIVE DEMO - https://palakp.netlify.app/
 
