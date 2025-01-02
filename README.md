@@ -1,2 +1,2 @@
-LIVE DEMO - portfoliome-lilac.vercel.app
+LIVE DEMO - palakp.netlify.app
 
