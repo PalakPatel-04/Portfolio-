@@ -58,7 +58,7 @@ const DetailedProject = ({ setSelectedTab }) => {
   ];
   return (
     <>
-      <section id="aboutpart a" className="about" data-aos="slide-up">
+      <section id="aboutpart a" className="about" data-aos="slide-up" style={{ textAlign: "center", margin: "auto" }}>
         <div className="back-btn-container">
           <button
             className="btn btn-color-2"
