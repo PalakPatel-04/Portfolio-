@@ -15,7 +15,7 @@ const DetailedProject = ({ setSelectedTab }) => {
     {
       number: 2,
       title: "Blood donor connect portal",
-      description:"The Blood Donor Connect Portal is a full-stack web application built using the MERN stack (MongoDB, Express.js, React.js, Node.js), designed to connect blood donors with recipients. The platform allows users to register, search for donors, and update their profiles. Used RESTful APIs for data exchange and integrated JWT authentication to secure user and admin logins.",
+      description:"The Blood Donor Connect Portal is a full-stack web application built using the MERN stack, designed to connect blood donors with recipients. The platform allows users to register, search for donors, and update their profiles. Used RESTful APIs for data exchange and integrated JWT authentication to secure user and admin logins.",
       button1: "Github",
       button1link: "https://github.com/PalakPatel-04/Blood-Donor-Connect-Portal-",
       button2: "Live Demo",
