@@ -69,6 +69,7 @@ const DetailedProject = ({ setSelectedTab }) => {
             &#8617; Home
           </button>
         </div>
+        <div style={{ textAlign: "center" }}>
         <h1 className="title">My Project</h1>
         <br />
         {projectContainer.map((item) => (
@@ -83,6 +84,7 @@ const DetailedProject = ({ setSelectedTab }) => {
             imagelink={item.imagelink}
           ></ProjectContainer>
         ))}
+          </div>
         <br />
         <br />
         <div style={{ textAlign: "center" }}>
