@@ -1,7 +1,7 @@
 const Project = ({ setSelectedTab }) => {
   const handleButtonClick = () => {
-    setSelectedTab("Project"); // Navigate to the desired page
-    window.scrollTo({ top: 0, behavior: "smooth" }); // Scroll to the top smoothly
+    setSelectedTab("Project"); 
+    window.scrollTo({ top: 0, behavior: "smooth" }); 
   };
 
   return (
@@ -35,7 +35,7 @@ const Project = ({ setSelectedTab }) => {
               <div className="btn-container">
                 <button
                   className="btn btn-color-2"
-                  onClick={handleButtonClick} // Use the scroll fix logic here
+                  onClick={handleButtonClick} 
                 >
                   Click Here
                 </button>
