@@ -70,7 +70,7 @@ const DetailedProject = ({ setSelectedTab }) => {
           </button>
         </div>
         <div style={{ textAlign: "center" }}>
-        <h1 data-aos="slide-up className="title">My Project</h1>
+        <h1 data-aos="slide-up" className="title">My Project</h1>
         <br />
         {projectContainer.map((item) => (
           <ProjectContainer
