@@ -10,7 +10,7 @@ const DetailedProject = ({ setSelectedTab }) => {
       button1: "Github",
       button1link: "https://github.com/PalakPatel-04/Blood-Donor-Connect-Portal-",
       button2: "Live Demo",
-      button2link: "#",
+      // button2link: "#",
       imagelink: "./assets/blood-donate.jpg",
     },
     {
