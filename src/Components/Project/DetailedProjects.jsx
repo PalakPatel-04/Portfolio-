@@ -14,26 +14,26 @@ const DetailedProject = ({ setSelectedTab }) => {
       imagelink: "./assets/pixsnapper.jpg",
     },
     {
-      number: 2,
-      title: "Blood donor connect portal",
+      number: 3,
+      title: "QuickBite",
       description:
-        "The Blood Donor Connect Portal is a full-stack web application built using the MERN stack, designed to connect blood donors with recipients. The platform allows users to register, search for donors, and update their profiles. Used RESTful APIs for data exchange and integrated JWT authentication to secure user and admin logins.",
+        "QuickBite is a modern reservation management platform designed to simplify the process of booking and managing reservations. ",
       button1: "Github",
-      button1link: "https://github.com/PalakPatel-04/Blood-Donor-Connect-Portal-",
+      button1link: "https://github.com/PalakPatel-04/QuickBite",
       button2: "Live Demo",
-      button2link: "#",
-      imagelink: "./assets/blood-donate.jpg",
+      button2link: "https://quickbite-eight.vercel.app/",
+      imagelink: "./assets/quickbite.jpeg",
     },
     {
-      number: 3,
-      title: "Portfolio",
+      number: 4,
+      title: "ShopEase",
       description:
-        "The Portfolio is a personal project that I developed to showcase my skills, accomplishments, and the projects I have worked on.",
+        "ShopEase, an eCommerce website developed using basic HTML and CSS.",
       button1: "Github",
-      button1link: "#",
+      button1link: "https://github.com/PalakPatel-04/ShopEase",
       button2: "Live Demo",
-      button2link: "#",
-      imagelink: "./assets/portfolio.jpg",
+      button2link: "https://shop-ease-online.vercel.app/",
+      imagelink: "./assets/shopease.png",
     },
   ];
 
