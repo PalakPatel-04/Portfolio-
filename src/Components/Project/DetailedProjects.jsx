@@ -4,25 +4,25 @@ const DetailedProject = ({ setSelectedTab }) => {
   const projectContainer = [
     {
       number: 1,
-      title: "PixSnapper",
+      title: "Blood donor connect portal",
       description:
-        "PixSnapper is an AI-powered image generation app built using the MERN stack (MongoDB, Express.js, React.js, Node.js). The app allows users to generate images based on text prompts, using open api. This helps in better understanding of integration of apis in real-time.",
+        "The Blood Donor Connect Portal is a full-stack web application built using the MERN stack, designed to connect blood donors with recipients. The platform allows users to register, search for donors, and update their profiles. Used RESTful APIs for data exchange and integrated JWT authentication to secure user and admin logins.",
       button1: "Github",
-      button1link: "#",
+      button1link: "https://github.com/PalakPatel-04/Blood-Donor-Connect-Portal-",
       button2: "Live Demo",
       button2link: "#",
-      imagelink: "./assets/pixsnapper.jpg",
+      imagelink: "./assets/blood-donate.jpg",
     },
     {
-      number: 3,
-      title: "QuickBite",
+      number: 2,
+      title: "Trip2Go",
       description:
-        "QuickBite is a modern reservation management platform designed to simplify the process of booking and managing reservations. ",
+        "Trip2Go is a web application designed to simplify the process of planning your next trip.",
       button1: "Github",
-      button1link: "https://github.com/PalakPatel-04/QuickBite",
+      button1link: "https://github.com/PalakPatel-04/Trip2Go",
       button2: "Live Demo",
-      button2link: "https://quickbite-eight.vercel.app/",
-      imagelink: "./assets/quickbite.jpeg",
+      button2link: "https://trip2go.vercel.app/",
+      imagelink: "./assets/triptogo.jpg",
     },
     {
       number: 4,
