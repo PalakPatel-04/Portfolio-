@@ -25,15 +25,15 @@ const DetailedProject = ({ setSelectedTab }) => {
       imagelink: "./assets/triptogo.jpg",
     },
     {
-      number: 4,
-      title: "ShopEase",
+      number: 3,
+      title: "Portfolio",
       description:
-        "ShopEase, an eCommerce website developed using basic HTML and CSS.",
+        "The Portfolio is a personal project that I developed to showcase my skills, accomplishments, and the projects I have worked on.",
       button1: "Github",
-      button1link: "https://github.com/PalakPatel-04/ShopEase",
+      button1link: "#",
       button2: "Live Demo",
-      button2link: "https://shop-ease-online.vercel.app/",
-      imagelink: "./assets/shopease.png",
+      button2link: "#",
+      imagelink: "./assets/portfolio.jpg",
     },
   ];
 
@@ -51,6 +51,17 @@ const DetailedProject = ({ setSelectedTab }) => {
     },
     {
       number: 3,
+      title: "QuickBite",
+      description:
+        "QuickBite is a modern reservation management platform designed to simplify the process of booking and managing reservations. ",
+      button1: "Github",
+      button1link: "https://github.com/PalakPatel-04/QuickBite",
+      button2: "Live Demo",
+      button2link: "https://quickbite-eight.vercel.app/",
+      imagelink: "./assets/quickbite.jpeg",
+    },
+    {
+      number: 4,
       title: "ShopEase",
       description:
         "ShopEase, an eCommerce website developed using basic HTML and CSS.",
@@ -71,11 +82,11 @@ const DetailedProject = ({ setSelectedTab }) => {
         style={{
           textAlign: "center",
           margin: "auto",
-          padding: "20px 40px", // Padding to create space on left and right
-          maxWidth: "1200px", // Limit the width of the content
+          padding: "20px 40px", 
+          maxWidth: "1200px", 
           backgroundColor: "#f9f9f9",
           borderRadius: "10px",
-          boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)", // Add subtle shadow for a clean look
+          boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)", 
         }}
       >
         <div className="back-btn-container">
