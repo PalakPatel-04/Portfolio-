@@ -20,7 +20,7 @@ const Title = () => {
         <div className="btn-container">
           <button className="btn btn-color-2">
             <a
-              href="./assets/resume.pdf"
+              href="./assets/Palak_Patel-Resume-D.pdf"
               target="_blank"
             >
               Download CV
