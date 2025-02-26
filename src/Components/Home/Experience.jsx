@@ -1,15 +1,30 @@
 import Entry from "./Entry/Entry";
 
 const Experience = ({ items }) => {
+  const programming = [
+    {
+      name: "C++",
+      level: "Intermediate",
+    },
+    {
+      name: "JavaScript",
+      level: "Intermediate",
+    },
+    {
+      name: "Python",
+      level: "Basic",
+    },
+    {
+      name: "SQL",
+      level: "Intermediate",
+    },
+  ];
   const frontend = [
     {
       name: "HTML"
     },
     {
       name: "CSS"
-    },
-    {
-      name: "JavaScript"
     },
     {
       name: "Bootstrap"
@@ -32,20 +47,6 @@ const Experience = ({ items }) => {
       name: "MongoDB"
     },
   ];
-  const programming = [
-    {
-      name: "C++",
-      level: "Intermediate",
-    },
-    {
-      name: "Python",
-      level: "Basic",
-    },
-    {
-      name: "MySQL",
-      level: "Basic",
-    },
-  ];
   const tools = [
     {
       name: "VS Code"
@@ -61,6 +62,9 @@ const Experience = ({ items }) => {
     },
     {
       name: "Render"
+    },
+    {
+      name: "Jupyter"
     }
   ];
   return (
