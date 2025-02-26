@@ -76,6 +76,18 @@ const Experience = ({ items }) => {
           <div className="details-container" data-aos="slide-up">
             <h2 className="experience-sub-title">Front End Development</h2>
             <div className="article-container">
+              <div className="details-container" data-aos="slide-up">
+            <h2 className="experience-sub-title">
+              Programming languages
+            </h2>
+            <div className="article-container">
+              <article>
+                {programming.map((item) => (
+                  <Entry name={item.name} level={item.level}></Entry>
+                ))}
+              </article>
+            </div>
+          </div>
               <article>
                 {frontend.map((item) => (
                   <Entry name={item.name} level={item.level}></Entry>
@@ -88,18 +100,6 @@ const Experience = ({ items }) => {
             <div className="article-container">
               <article>
                 {backend.map((item) => (
-                  <Entry name={item.name} level={item.level}></Entry>
-                ))}
-              </article>
-            </div>
-          </div>
-          <div className="details-container" data-aos="slide-up">
-            <h2 className="experience-sub-title">
-              Programming languages
-            </h2>
-            <div className="article-container">
-              <article>
-                {programming.map((item) => (
                   <Entry name={item.name} level={item.level}></Entry>
                 ))}
               </article>
