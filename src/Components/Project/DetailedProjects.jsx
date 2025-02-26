@@ -15,13 +15,13 @@ const DetailedProject = ({ setSelectedTab }) => {
     },
     {
       number: 2,
-      title: "Trip2Go",
+      title: "MediLocate",
       description:
-        "Trip2Go is a web application designed to simplify the process of planning your next trip.",
+        "MediLocate, a smart healthcare assistant that helps users find nearby hospitals based on their real-time location.",
       button1: "Github",
-      button1link: "https://github.com/PalakPatel-04/Trip2Go",
+      button1link: "https://github.com/PalakPatel-04/MediLocate",
       button2: "Live Demo",
-      button2link: "https://trip2go.vercel.app/",
+      button2link: "https://medilocate-omega.vercel.app/login",
       imagelink: "./assets/triptogo.jpg",
     },
     {
@@ -40,14 +40,14 @@ const DetailedProject = ({ setSelectedTab }) => {
   const miniProject = [
     {
       number: 2,
-      title: "LangDetect",
+      title: "Trip2Go",
       description:
-        "LangDetect is a Python-based language detection project that utilizes pandas for data handling and scikit-learn for feature extraction. Also Multinomial Naive Bayes Classifier to accurately classify text input by language.",
+        "Trip2Go is a web application designed to simplify the process of planning your next trip.",
       button1: "Github",
-      button1link: "https://github.com/PalakPatel-04/LangDetect",
-      button2: "GitHub Demo",
-      button2link: "https://github.com/PalakPatel-04/LangDetect",
-      imagelink: "./assets/langdetect.png",
+      button1link: "https://github.com/PalakPatel-04/Trip2Go",
+      button2: "Live Demo",
+      button2link: "https://trip2go.vercel.app/",
+      imagelink: "./assets/triptogo.jpg",
     },
     {
       number: 3,
@@ -62,6 +62,17 @@ const DetailedProject = ({ setSelectedTab }) => {
     },
     {
       number: 4,
+      title: "LangDetect",
+      description:
+        "LangDetect is a Python-based language detection project that utilizes pandas for data handling and scikit-learn for feature extraction. Also Multinomial Naive Bayes Classifier to accurately classify text input by language.",
+      button1: "Github",
+      button1link: "https://github.com/PalakPatel-04/LangDetect",
+      button2: "GitHub Demo",
+      button2link: "https://github.com/PalakPatel-04/LangDetect",
+      imagelink: "./assets/langdetect.png",
+    },
+    {
+      number: 5,
       title: "ShopEase",
       description:
         "ShopEase, an eCommerce website developed using basic HTML and CSS.",
