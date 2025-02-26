@@ -22,7 +22,7 @@ const DetailedProject = ({ setSelectedTab }) => {
       button1link: "https://github.com/PalakPatel-04/MediLocate",
       button2: "Live Demo",
       button2link: "https://medilocate-omega.vercel.app/login",
-      imagelink: "./assets/triptogo.jpg",
+      imagelink: "./assets/medloc.png",
     },
     {
       number: 3,
